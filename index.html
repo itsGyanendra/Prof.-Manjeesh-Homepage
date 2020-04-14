@@ -12,14 +12,22 @@
         <link rel="stylesheet" href="static/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       
 
-        <!--Favicon-->
+        <!-- Favicon -->
         <link rel="icon" type="image/png"  href="static/images/favicon.png">
         
         <title>Rahul Mangal | IIT Kanpur</title>
 
-        <!-- custom style -->
+        <!-- Custom style -->
         <style>
             body{background-color: white;
+            }
+
+            #card-shadow{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            #student-img{
+                width: 250px;
+                height: 100%;
             }
         </Style>
     </head>
@@ -32,41 +40,42 @@
         </div>
     </div>
 
-    <div class="container-fluid" style="padding:50px;">
+    <!-- Introduction -->
+    <div class="container-fluid" style="padding-top:50px;padding-bottom: 100px;">
         <div class="container">
-            <br>
             <div class="row">
                 <div class="col-xl-4">
                     <img src="static/images/dp.jpg" class="rounded-circle mx-auto d-block img-fluid" alt="Profile Picture - Prof Rahul Mangal" width="300" height="300">
                     <div class="text-center">
-                        <h2>Rahul Mangal</h2>
+                        <h2>Dr Rahul Mangal</h2>
                         <p class=" ">Assistant Professor
                             <br><a target="_blank" class="text-decoration-none" href="https://www.iitk.ac.in/che/" >Department of Chemical Engineering</a>
                             <br><a target="_blank" class="text-decoration-none" href="https://www.iitk.ac.in/" >Indian Institute of Technology (IIT) Kanpur</a>
                         </p>
                     </div>
                     <div class="text-center" style="font-size: 35px;">
-                        <a target="_blank" href="mailto:mangalr@iitk.ac.in?subject=Got this email id from your website!"><i class="fa fa-facebook-square"></i></a>
+                        <a target="_blank" href="mailto:mangalr@iitk.ac.in?subject=Got this email id from your website!"><i class="fa fa-envelope" style="color: #00244c;"></i></a>
                         <a target="_blank" href="https://twitter.com/mangalr"><i class="fa fa-twitter" style="color:#3d3dff;"></i></a>
-                        <a target="_blank" href="https://scholar.google.co.in/citations?user=upovR8EAAAAJ&hl=en"><i class="fa fa-google" style="color:#1a4775;"></i></a>
+                        <a target="_blank" href="https://scholar.google.co.in/citations?user=upovR8EAAAAJ&hl=en"><i class="fa fa-google" style="color:#d90026;"></i></a>
                         <a target="_blank" href="https://www.linkedin.com/in/rahulmangal/"><i class="fa fa-linkedin-square" style="color:#3366cc;"></i></a>                        
                     </div>
                 </div>
                 <div class="col-xl-8" >
-                    <div style="padding-top: 75px;padding-bottom: 20px;" >
+                    <div style="padding-top: 50px;padding-bottom: 20px;" >
                         <h3>Biography</h3>
                         <p class="text-justify">
-                            Rahul Mangal is an Assistant Professor in Chemical Engineering at IIT Kanpur. His research interests include Soft Matter, Polymer Physics, Active Matter and Liquid Crystals.
+                            Dr Rahul Mangal is an Assistant Professor in Chemical Engineering at IIT Kanpur. His research interests include Soft Matter, Polymer Physics, Active Matter and Liquid Crystals.
                         </p>
                     </div>
                     <hr>
-                    <div class="row" style="line-height:1.8">
+                    <div class="row" style="line-height:1.8;padding-bottom: 50px;">
                         <div class="col-md-5">
                             <h3>Interests</h3>
-                            <ul type="circle">
-                                <li>Soft Matter</li>
+                            <ul>
                                 <li>Active Matter</li>
-                                <li>Polymer Physics</li>
+                                <li>Polymer Nano-Composites</li>
+                                <li>Soft Matter</li>
+                                <li>Rheology of Composites & Complex Fluids</li>
                             </ul>
                         </div>
                         <div class="col-md-7" >
@@ -79,90 +88,513 @@
                                 </ul>
                         </div>
                     </div>
+
+                    <!-- Recent News Section -->
+                    <div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-info" style="width:250px;" data-toggle="modal" data-target="#myNews">Recent News (click)</button>
+                        </div>
+                        
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myNews">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Recent News</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    
+                                    <!-- Modal body || News Content-->
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li>Oct. 4th, 2019: Anivesh Mehra successfully defended his Masters Thesis. Congrats Anivesh.</li>
+                                            <li>Sept. 27, 2019: Vinay Mohania successfully defended his Masters Thesis. Congrats Vinay.</li>
+                                            <li>Jun. 28, 2019: Bishwa Ranjan Si successfully defended his Masters Thesis. Congrats Bishwa.</li>
+                                            <li>Feb. 25, 2019: Dr. Rahul Mangal received the DST SERB Early Career Research Grant.</li>
+                                            <li>Jan. 7, 2019: Utkarsh Sharma and Shruti Khandelwal joined as new Masters students in the group. CPPG welcomes them.</li>
+                                            <li>Oct. 12, 2018: Karnika SIngh and Sweta Sarangi joined as new PhD students to the group. Welcome to both!</li>
+                                            <li>Aug. 22, 2018: Colloids and Polymer Physics lab. was inaugurated today.</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Honors and Awards -->
-    <div class="container-fluid bg-light" style="padding:100px">
+    <div class="container-fluid bg-light" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 ">
+                <div class="col-lg-3 ">
                     <h2>Honors & Awards</h2>
                 </div>
-                <div class="col-xl-9 bg-info">
-                    demo
+                <div class="col-lg-9">
+                    <div class="container-fluid">
+                        <!--
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Name of Award  (Year)</h5>
+                                <p class="card-text">Details</p>
+                            </div>
+                        </div>
+                        -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Early Career Research Award, (2019-2022)</h5>
+                                <p class="card-text">Science and Engineering Research Board, Government of India</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Ramanujan Fellowship, (2017-2022)</h5>
+                                <p class="card-text">Science and Engineering Research Board, Government of India</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Outstanding Graduate Teaching Assistant, (2016)</h5>
+                                <p class="card-text">Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">McMullen Fellowship, (2012)</h5>
+                                <p class="card-text">Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Academic Excellence, (2009)</h5>
+                                <p class="card-text">Indian Institute of Technology (IIT) Kanpur </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Academic Excellence, (2008)</h5>
+                                <p class="card-text">Indian Institute of Technology (IIT) Kanpur</p>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Teaching IITK -->
-    <div class="container-fluid" style="padding:100px">
+    <div class="container-fluid" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
                     <h2>Teaching @ IITK</h2>
                 </div>
-                <div class="col-xl-9 bg-warning">
-                    demo
+                <div class="col-xl-9">
+                    <div class="container-fluid">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Undergraduate Courses</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <!-- <li>Add Course</li> -->
+                                        <li>CHE453A: Chemical Process Design (Instructor)</li>
+                                        <li>ESO204A: Fluid Mechanics (Tutor)</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Graduate Courses</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <!-- <li>Add Course</li> -->
+                                        <li>CHE677A: Introduction to Physics of Polymeric Systems (Instructor)</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Research and Projects -->
-    <div class="container-fluid bg-light" style="padding:100px">
+    <div class="container-fluid bg-light" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
                     <h2>Research Interest & Ongoing Projects</h2>
                 </div>
-                <div class="col-xl-9 bg-info">
-                    demo
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Students -->
-    <div class="container-fluid" style="padding:100px">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 ">
-                    <h2>Students</h2>
-                </div>
-                <div class="col-xl-9 bg-info">
-                    demo
+                <div class="col-xl-9 text-justify">
+                    <div style="padding-bottom: 30px;">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Research Interest</h5>
+                                <hr>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Active Matter</li>
+                                        <li>Polymer Nano-Composites</li>
+                                        <li>Soft Matter</li>
+                                        <li>Rheology of Composites & Complex Fluids</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 30px;">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Ongoing Projects</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Active Colloids and Emulsions</h5>
+                                <p class="card-text">
+                                    Active particles or emulsions are capable of harnessing energy from their surroundings and drive themselves out of thermodynamic equilibrium. Consequently, unlike Brownian particles, where equilibrium thermal fluctuations leads to random motion, artificial active colloids offer more control over the dynamics of particles and feature various novel transport and self-assembly behaviors. In our group, we are currently endeavoring into investigating several unexplored fundamental questions pertaining to their motion through Single Particle Tracking experiments.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Impact of Shock Waves on the Structure and Dynamics of Polymer Nano-composites (PNCs)</h5>
+                                <p class="card-text">
+                                    Addition of nano-particles (NPs) to polymer hosts is a well-practiced method for augmenting various properties of the host, including mechanical strength, thermal stability, barrier properties, and wear resistance. Hence, lately there has been an active interest in using PNCs as shock mitigater for protective equipments in case of a bomb explosion. In this work we are experimentally investigating the impact of shock waves on the fundamental physical properties of PNCs. Our long term goal is to design a nano-composite material offering best resistance to shock waves.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="padding-bottom: 30px;">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Open Positions  <i class="fa fa-refresh fa-spin" style="color: red;"></i></h5>
+                                <hr>
+                                <p class="card-text">
+                                    I am looking for motivated Post Docs, PhDs, Masters/Dual Degree students to work with me on interesting problems in colloids and complex fluids. Please check my research brief and papers for further details. Interested candidates can contact me by email with a short description about their interests.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- publications -->
-    <div class="container-fluid bg-light" style="padding:100px">
+    <div class="container-fluid " style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
                     <h2>Publications</h2>
                 </div>
-                <div class="col-xl-9 bg-info">
-                    demo
+                <div class="col-xl-9 text-justify">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Instability Driven by shear thinning and elasticity in the flow of concentrated polymer solutions through microtubes.
+                                <a target="_blank" href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.4.083301"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">B. Chandra, R. Mangal, D. Das and V. Shankar, Phys. Rev. Fluids 4, 083301 (2019).</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Dynamics of nanoparticles in entangled polymer solutions.
+                                <a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.7b03418"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">P. Nath, R. Mangal, F. F. Kohle, S. Chodhury, S. Narayanan, U. B. Wiesner and L. A. Archer, Langmuir 34(1), (2017).</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Active Janus Particles at Interfaces of Liquid Crystals.
+                                <a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.7b02246"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">R. Mangal, N. Karthik, Y. K. Kim, E. Bukusoglu, U. M. Cordova-Figuerora and N. L. Abbott, Langmuir 33 (41), (2017).</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Phase stability and dynamics of entangled polymer nanoparticle composites.
+                                <a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.5b03311"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">R. Mangal, S. Srivastava, and L. A. Archer, Nature Communications 32 (2), (2016).</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                A highly reversible room-temperature lithium metal battery based on crosslinked hairy nanoparticles.
+                                <a target="_blank" href="https://www.nature.com/articles/ncomms10101/fig_tab"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">S. Chodhury, R. Mangal, A. Agrawal and L. A. Archer, Nature Communications 6, 10105 (2015).</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Size-Dependent Particle Dynamics in Entangled Polymer Nanocomposites.
+                                <a target="_blank" href="https://www.nature.com/articles/ncomms8198?WT.feed_name=subjects_nanocomposites/"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">R. Mangal, S. Srivastava, S. Narayanan and L. A. Archer, Langmuir 6, 7198 (2015).</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Multiscale Dynamics of Polymers in Particle-Rich Nanocomposites.
+                                <a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/acs.macromol.6b00496"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">R. Mangal, , Y. H. Wen, S. Chodhury and L. A. Archer, Macromolecules 49 (14), (2016).</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Enthalpy-Driven Stabilization of Dispersions of Polymer-Grafted Nanoparticles in High-Molecular-Weight Polymer Melts.
+                                <a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.6b02613"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">R. Mangal, , P. Nath, M. Tikekar, and L. A. Archer, Macromolecules 32 (41), (2016).</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Hyperdiffusive Dynamics in Newtonian Nanoparticle Fluids.
+                                <a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/acsmacrolett.5b00319"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">S. Srivastava, P. Agarwal, R. Mangal, D. L. Koch, S. Narayanan and L. A. Archer, Macroletters 4 (10) (2015).</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Relaxation Dynamics of Nanoparticle-Tethered Polymer Chains.
+                                <a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/acs.macromol.5b00791"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">S. Kim, R. Mangal, and L. A. Archer, Macromolecules 48 (17) (2015).</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Biomimetic Wet Adhesion of Viscoelastic Liquid Films Anchored on Micropatterned Elastic Substrates.
+                                <a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/la302460y"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">S. Patil, R. Mangal, A. Malasi and A. Sharma, Langmuir 28 (41) (2012).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Students -->
+    <div class="container-fluid bg-light" style="padding-top:100px;padding-bottom:100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 ">
+                    <h2>Students</h2>
+                </div>
+                <div class="col-xl-9">
+
+                    <!-- Current PhD Students-->
+                    <div style="padding-bottom: 100px;">
+                        <h5 class="card-title">PhD Students (Current)</h5>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card" style="width:150px">
+                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-current-phd-prateek.jpg" alt="Student Image">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <p><b>Prateek Dwivedi</b> &emsp;( dprateek@iitk.ac.in )</p>
+                                <p class="text-justify">
+                                    Prateek hails from Gandidham (Kachh) Gujarat. He did his B.Tech in Chemical Engineering from Guru Ghasidas Vishwavidyalaya Bilaspur (Chhatisgarh) and M.Tech. from IIT Roorkee. He has worked in Cargill India Private Limited in Davangere Karnataka. Currently, he is focusing on investigating the dynamics of active emulsions.
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card" style="width:150px">
+                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-current-phd-sweta.jpg" alt="Student Image">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <p><b>Sweta Sarangi</b> &emsp;( swetas@iitk.ac.in )</p>
+                                <p class="text-justify">
+                                    Sweta hails from Bhuveneshawar, Odisha. She did her B.Tech in Chemical Engineering from Indira Gandhi Institute of Technology (IGIT), Odhisha and M.Tech. from IIT Dhanbad.
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card" style="width:150px">
+                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-current-phd-karnika.jpg" alt="Student Image">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <p><b>Karnika Singh</b> &emsp;( karnikas@iitk.ac.in )</p>
+                                <p class="text-justify">
+                                    Karnika hails from Kanpur, UP. She recently finished her B.Tech. from MNNIT Allahbad, UP.
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <!-- Curent MTech / Dual Degree Students -->
+                    <div style="padding-bottom: 100px;">
+                        <h5 class="card-title">MTech / Dual Degree Studentss (Current)</h5>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card" style="width:150px">
+                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-female.jpg" alt="Student Image">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <p><b>Shruti Khandelwal</b> &emsp;( shrutik@iitk.ac.in )</p>
+                                <p class="text-justify">
+                                    null
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card" style="width:150px">
+                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-male.jpg" alt="Student Image">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <p><b>Utkarsh Sharma</b> &emsp;( sutkars@iitk.ac.in )</p>
+                                <p class="text-justify">
+                                    null
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card" style="width:150px">
+                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-male.jpg" alt="Student Image">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <p><b>Ravindra Jangid</b> &emsp;( null@iitk.ac.in )</p>
+                                <p class="text-justify">
+                                    null
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card" style="width:150px">
+                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-male.jpg" alt="Student Image">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <p><b>Rohan Jha</b> &emsp;( rohanjh@iitk.ac.in )</p>
+                                <p class="text-justify">
+                                    null
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        
+                    </div>
+
+                    <!-- Past Students Details -->
+                    <div>
+                        <h5>Past Students</h5>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                  <th>Name</th>
+                                  <th>Email ID</th>
+                                  <th>Specialization / Details</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                    <tr>
+                                        <td>null</td>
+                                        <td>null</td>
+                                        <td>null</td>
+                                    </tr>
+                                    <tr>
+                                        <td>null</td>
+                                        <td>null</td>
+                                        <td>null</td>
+                                    </tr>
+                              </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- contact -->
-    <div class="container-fluid" style="padding:100px">
+    <div class="container-fluid" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
                     <h2>Contacts</h2>
                 </div>
-                <div class="col-xl-9 bg-info">
-                    demo
+                <div class="col-xl-9">
+                    <div style="padding-bottom: 100px;">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+                              </div>
+                              <div class="form-group">
+                                <textarea class="form-control" rows="5" id="message" placeholder="Message"></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Send Email</button>
+                        </form>
+                    </div>
+                    <div style="padding-bottom: 50px;">
+                        
+                        <p>
+                            <i class="fa fa-volume-control-phone" style="font-size: 30px;"></i> 
+                            &emsp; Office : <a class="text-decoration-none" href="tel:+915122592002" >+91-512-2592002</a>, 
+                            &emsp; Laboratory : <a class="text-decoration-none" href="tel:+915122596373" >+91-512-2596373</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-at" style="font-size: 30px;"></i>
+                            &emsp; <a class="text-decoration-none" href="mailto:mangalr@iitk.ac.in">mangalr@iitk.ac.in</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-map-marker" style="font-size: 30px;"></i>
+                            &emsp; Office : ( 451 Faculty Building, IIT Kanpur ), 
+                            &emsp; Laboratory : ( 307 NL-II, IIT Kanpur )
+                        </p>
+                    </div>
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.2420479161774!2d80.23071131487413!3d26.512338783301626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c3701c4a8be71%3A0x3afbe880abc38436!2sIndian%20Institute%20of%20Technology%20Kanpur!5e0!3m2!1sen!2sin!4v1586805530553!5m2!1sen!2sin" style="width: 100%;height: 350px"  frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -171,7 +603,7 @@
     <!-- footer -->
     <div class="container-fluid bg-dark" style="padding:50px;">
         <div class="container text-center text-white">
-            Developed by <a target="_blank" href="http://www.therajababu.com/" data-toggle="tooltip" data-placement="top" title="www.therajababu.com" >Raja Babu</a>.
+            Developed by <a target="_blank" href="http://www.therajababu.com/" data-toggle="tooltip" data-placement="top" title="www.therajababu.com" >Raja Babu <i class="fa fa-external-link" style="color:white;"></i></a>.
         </div>
     </div>
 
