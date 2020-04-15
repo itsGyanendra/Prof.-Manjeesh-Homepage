@@ -5,15 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- static files-->
-        <script src="static/js/jquery.min.js"></script>
-        <script src="static/js/bootstrap.min.js"></script>
-        <script src="static/js/popper.min.js"></script>
-
-        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js" crossorigin="anonymous"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       
 
         <!-- Favicon -->
-        <link rel="icon" type="image/png"  href="static/images/favicon.png">
+        <link rel="icon" type="image/png"  href="images/favicon.png">
         
         <title>Rahul Mangal | IIT Kanpur</title>
 
@@ -22,30 +22,52 @@
             body{background-color: white;
             }
 
-            #card-shadow{
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }
-            #student-img{
-                width: 250px;
-                height: 100%;
-            }
         </Style>
     </head>
 <body>
     <!-- header -->
-    <div class="container-fluid">
-        <div class="container bg-success">
-            <h1 class="text-center"># HEADER #</h1>
-
+    <div class="container-fluid bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+                <a class="navbar-brand" href="#">Dr Rahul Mangal</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#introduction">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#awards">Awards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teaching">Teaching</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#research">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#students">Students</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>    
+                  </ul>
+                </div>  
+              </nav>
         </div>
     </div>
 
     <!-- Introduction -->
-    <div class="container-fluid" style="padding-top:50px;padding-bottom: 100px;">
-        <div class="container">
+    <div class="container-fluid" id="introduction" style="padding-top:100px;padding-bottom: 100px;">
+        <div class="container" >
             <div class="row">
                 <div class="col-xl-4">
-                    <img src="static/images/dp.jpg" class="rounded-circle mx-auto d-block img-fluid" alt="Profile Picture - Prof Rahul Mangal" width="300" height="300">
+                    <img src="images/dp.jpg" class="rounded-circle mx-auto d-block img-fluid" alt="Profile Picture - Prof Rahul Mangal" width="300" height="300">
                     <div class="text-center">
                         <h2>Dr Rahul Mangal</h2>
                         <p class=" ">Assistant Professor
@@ -81,8 +103,8 @@
                         <div class="col-md-7" >
                             <h3>Education</h3>
                                 <ul class="fa-ul" >
-                                    <li><i class="fa fa-graduation-cap fa-li fa-pull-left"></i> PhD, Cornell University, NY, USA</li>
                                     <li><i class="fa fa-graduation-cap fa-li fa-pull-left"></i> Post Doc, University of Wisconsin Madison, WI, USA</li>
+                                    <li><i class="fa fa-graduation-cap fa-li fa-pull-left"></i> PhD, Cornell University, NY, USA</li>
                                     <li><i class="fa fa-graduation-cap fa-li fa-pull-left"></i> M.Tech., Chemical Engineering, IIT Kanpur</li>
                                     <li><i class="fa fa-graduation-cap fa-li fa-pull-left"></i> B.Tech., Chemical Engineering, IIT Kanpur</li>
                                 </ul>
@@ -92,7 +114,7 @@
                     <!-- Recent News Section -->
                     <div>
                         <div class="text-center">
-                            <button type="button" class="btn btn-info" style="width:250px;" data-toggle="modal" data-target="#myNews">Recent News (click)</button>
+                            <button type="button" class="btn btn-info" style="width:250px;" data-toggle="modal" data-target="#myNews">Recent News ( Click )</button>
                         </div>
                         
                         <!-- The Modal -->
@@ -134,11 +156,12 @@
     </div>
 
     <!-- Honors and Awards -->
-    <div class="container-fluid bg-light" style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid bg-light" id="awards" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 ">
                     <h2>Honors & Awards</h2>
+                    <hr>
                 </div>
                 <div class="col-lg-9">
                     <div class="container-fluid">
@@ -193,11 +216,12 @@
     </div>
 
     <!-- Teaching IITK -->
-    <div class="container-fluid" style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid" id="teaching" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
                     <h2>Teaching @ IITK</h2>
+                    <hr>
                 </div>
                 <div class="col-xl-9">
                     <div class="container-fluid">
@@ -231,11 +255,12 @@
     </div>
 
     <!-- Research and Projects -->
-    <div class="container-fluid bg-light" style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid bg-light" id="research" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
-                    <h2>Research Interest & Ongoing Projects</h2>
+                    <h2>Research</h2>
+                    <hr>
                 </div>
                 <div class="col-xl-9 text-justify">
                     <div style="padding-bottom: 30px;">
@@ -295,13 +320,27 @@
     </div>
 
     <!-- publications -->
-    <div class="container-fluid " style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid" id="publications" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
                     <h2>Publications</h2>
+                    <hr>
                 </div>
                 <div class="col-xl-9 text-justify">
+
+                    <!--
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                #Topic
+                                <a target="_blank" href="#"><i class="fa fa-external-link" style="color: red;"></i></a>
+                            </h5>
+                            <p class="card-text">   </p>
+                        </div>
+                    </div>
+                    -->
+
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">
@@ -407,11 +446,12 @@
     </div>
 
     <!-- Students -->
-    <div class="container-fluid bg-light" style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid bg-light" id="students" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
                     <h2>Students</h2>
+                    <hr>
                 </div>
                 <div class="col-xl-9">
 
@@ -422,7 +462,7 @@
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
-                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-current-phd-prateek.jpg" alt="Student Image">
+                                    <img class="rounded mx-auto d-block img-fluid" src="images/student-current-phd-prateek.jpg" alt="Student Image">
                                 </div>
                             </div>
                             <div class="col-md-9">
@@ -436,7 +476,7 @@
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
-                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-current-phd-sweta.jpg" alt="Student Image">
+                                    <img class="rounded mx-auto d-block img-fluid" src="images/student-current-phd-sweta.jpg" alt="Student Image">
                                 </div>
                             </div>
                             <div class="col-md-9">
@@ -450,7 +490,7 @@
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
-                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-current-phd-karnika.jpg" alt="Student Image">
+                                    <img class="rounded mx-auto d-block img-fluid" src="images/student-current-phd-karnika.jpg" alt="Student Image">
                                 </div>
                             </div>
                             <div class="col-md-9">
@@ -470,7 +510,7 @@
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
-                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-female.jpg" alt="Student Image">
+                                    <img class="rounded mx-auto d-block img-fluid" src="images/student-current-master-shruti.jpg" alt="Student Image">
                                 </div>
                             </div>
                             <div class="col-md-9">
@@ -484,7 +524,7 @@
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
-                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-male.jpg" alt="Student Image">
+                                    <img class="rounded mx-auto d-block img-fluid" src="images/student-current-master-utkarsh.jpg" alt="Student Image">
                                 </div>
                             </div>
                             <div class="col-md-9">
@@ -495,10 +535,12 @@
                             </div>
                         </div>
                         <hr>
+
+                        <!--
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
-                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-male.jpg" alt="Student Image">
+                                    <img class="rounded mx-auto d-block img-fluid" src="images/student-male.jpg" alt="Student Image">
                                 </div>
                             </div>
                             <div class="col-md-9">
@@ -509,10 +551,12 @@
                             </div>
                         </div>
                         <hr>
+                        -->
+
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
-                                    <img class="rounded mx-auto d-block img-fluid" src="static/images/student-male.jpg" alt="Student Image">
+                                    <img class="rounded mx-auto d-block img-fluid" src="images/student-current-master-rohan.jpg" alt="Student Image">
                                 </div>
                             </div>
                             <div class="col-md-9">
@@ -533,11 +577,16 @@
                             <thead>
                                 <tr>
                                   <th>Name</th>
-                                  <th>Email ID</th>
-                                  <th>Specialization / Details</th>
+                                  <th>Contact</th>
+                                  <th>Specialization / Other Details</th>
                                 </tr>
                               </thead>
                               <tbody>
+                                    <tr>
+                                        <td>Ravindra Jangid</td>
+                                        <td>null</td>
+                                        <td>null</td>
+                                    </tr>
                                     <tr>
                                         <td>null</td>
                                         <td>null</td>
@@ -557,40 +606,82 @@
     </div>
 
     <!-- contact -->
-    <div class="container-fluid" style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid" id="contacts" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
                     <h2>Contacts</h2>
+                    <hr>
                 </div>
                 <div class="col-xl-9">
+
+                    <!-- Sending Email API : https://formspree.io/ -->
+                    
                     <div style="padding-bottom: 100px;">
-                        <form>
+                        <form action="https://formspree.io/meqlnpqrbr" method="POST">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+                                <input type="text" name="Name" class="form-control" id="name" placeholder="Your Name" required>
                               </div>
                               <div class="form-group">
-                                <textarea class="form-control" rows="5" id="message" placeholder="Message"></textarea>
+                                  <input type="text" name="Email_ID"class="form-control" placeholder="Your Email " required>
                               </div>
-                              <button type="submit" class="btn btn-primary">Send Email</button>
+                              <div class="form-group">
+                                <textarea name="Message" class="form-control" rows="5" id="message" placeholder="Message" required></textarea>
+                              </div>
+                              <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="To get Quick Response: Send direct mail to (mangalr@iitk.ac.in), instead of this form!" >Send Message</button>
                         </form>
                     </div>
+                    
+
                     <div style="padding-bottom: 50px;">
-                        
-                        <p>
-                            <i class="fa fa-volume-control-phone" style="font-size: 30px;"></i> 
-                            &emsp; Office : <a class="text-decoration-none" href="tel:+915122592002" >+91-512-2592002</a>, 
-                            &emsp; Laboratory : <a class="text-decoration-none" href="tel:+915122596373" >+91-512-2596373</a>
-                        </p>
-                        <p>
-                            <i class="fa fa-at" style="font-size: 30px;"></i>
-                            &emsp; <a class="text-decoration-none" href="mailto:mangalr@iitk.ac.in">mangalr@iitk.ac.in</a>
-                        </p>
-                        <p>
-                            <i class="fa fa-map-marker" style="font-size: 30px;"></i>
-                            &emsp; Office : ( 451 Faculty Building, IIT Kanpur ), 
-                            &emsp; Laboratory : ( 307 NL-II, IIT Kanpur )
-                        </p>
+
+                        <!-- email -->
+                        <div class="row" style="padding-bottom: 10px;">
+                            <div class="col-1">
+                                <i class="fa fa-at" style="font-size: 30px;"></i>
+                            </div>
+                            <div class="col-11">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <a class="text-decoration-none" href="mailto:mangalr@iitk.ac.in">mangalr@iitk.ac.in</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--contact no-->
+                        <div class="row" style="padding-bottom: 10px;">
+                            <div class="col-1">
+                                <i class="fa fa-volume-control-phone" style="font-size: 30px;"></i>
+                            </div>
+                            <div class="col-11">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        Office : <a class="text-decoration-none" href="tel:+915122592002" >+91-512-2592002</a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        Laboratory : <a class="text-decoration-none" href="tel:+915122596373" >+91-512-2596373</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Address-->
+                        <div class="row" style="padding-bottom: 10px;">
+                            <div class="col-1">
+                                <i class="fa fa-map-marker" style="font-size: 30px;"></i>
+                            </div>
+                            <div class="col-11">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        Office : (451 Faculty Building, IIT Kanpur)
+                                    </div>
+                                    <div class="col-sm-6">
+                                        Laboratory : (307 NL-II, IIT Kanpur)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.2420479161774!2d80.23071131487413!3d26.512338783301626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c3701c4a8be71%3A0x3afbe880abc38436!2sIndian%20Institute%20of%20Technology%20Kanpur!5e0!3m2!1sen!2sin!4v1586805530553!5m2!1sen!2sin" style="width: 100%;height: 350px"  frameborder="0" style="border:0" allowfullscreen></iframe>
