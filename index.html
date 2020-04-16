@@ -5,11 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- static files-->
+
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/jquery.min.js" crossorigin="anonymous"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        
+
+        <!--icon-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       
 
         <!-- Favicon -->
@@ -19,45 +21,45 @@
 
         <!-- Custom style -->
         <style>
-            body{background-color: white;
+            hr.theme-white{
+                border-top: 1px solid white;
             }
-
         </Style>
     </head>
-<body>
+<body class="bg-dark">
     <!-- header -->
-    <div class="container-fluid bg-dark">
-        <div class="container">
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-                <a class="navbar-brand" href="#">Dr Rahul Mangal &emsp;&emsp;</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                  <span class="navbar-toggler-icon"></span>
+    <div class="container-fluid bg-light ">
+        <div class="container ">
+            <nav class="navbar navbar-expand-md bg-light  navbar-dark fixed-top">
+                <a class="navbar-brand text-dark" href="#"><b>Dr Rahul Mangal</b> &emsp;&emsp;</a>
+                <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon" ></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#introduction">Home</a>
+                      <a class="nav-link text-dark" href="#introduction">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#awards">Awards</a>
+                      <a class="nav-link text-dark" href="#awards">Awards</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#teaching">Teaching</a>
+                        <a class="nav-link text-dark" href="#teaching">Teaching</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#research">Research</a>
+                        <a class="nav-link text-dark" href="#research">Research</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#news">News</a>
+                        <a class="nav-link text-dark" href="#news">News</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link text-dark" href="#publications">Publications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#publications">Publications</a>
+                        <a class="nav-link text-dark" href="#students">Students</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#students">Students</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#contacts">Contacts</a>
+                      <a class="nav-link text-dark" href="#contacts">Contacts</a>
                     </li>    
                   </ul>
                 </div>  
@@ -66,8 +68,8 @@
     </div>
 
     <!-- Introduction -->
-    <div class="container-fluid" id="introduction" style="padding-top:100px;padding-bottom: 100px;">
-        <div class="container" >
+    <div class="container-fluid text-light" id="introduction" style="padding-top:100px;padding-bottom: 100px;">
+        <div class="container " >
             <div class="row">
                 <div class="col-xl-4">
                     <img src="images/dp.jpg" class="rounded-circle mx-auto d-block img-fluid" alt="Profile Picture - Prof Rahul Mangal" width="300" height="300">
@@ -78,11 +80,14 @@
                             <br><a target="_blank" class="text-decoration-none" href="https://www.iitk.ac.in/" >Indian Institute of Technology (IIT) Kanpur</a>
                         </p>
                     </div>
-                    <div class="text-center" style="font-size: 35px;">
-                        <a target="_blank" href="mailto:mangalr@iitk.ac.in?subject=Got this email id from your website!"><i class="fa fa-envelope" style="color: #00244c;"></i></a>
-                        <a target="_blank" href="https://twitter.com/mangalr"><i class="fa fa-twitter" style="color:#3d3dff;"></i></a>
-                        <a target="_blank" href="https://scholar.google.co.in/citations?user=upovR8EAAAAJ&hl=en"><i class="fa fa-google" style="color:#d90026;"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/rahulmangal/"><i class="fa fa-linkedin-square" style="color:#3366cc;"></i></a>                        
+                    <div class="text-center" style="font-size: 35px">
+                        <a target="_blank" href="mailto:mangalr@iitk.ac.in?subject=Got this email id from your website!"><i class="fa fa-envelope" style="color:white;"></i></a>
+                        <a target="_blank" href="https://twitter.com/mangalr"><i class="fa fa-twitter" style="color:whitesmoke;"></i></a>
+                        <!--<a target="_blank" href="https://scholar.google.co.in/citations?user=upovR8EAAAAJ&hl=en"><i class="fa fa-google" style="color:#d90026;"></i></a>-->
+                        <a target="_blank" href="https://scholar.google.co.in/citations?user=upovR8EAAAAJ&hl=en" style="color: black;"><img src="images/google-scholar-4.jpeg" class="rounded-circle" style="width:35px;"></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/rahulmangal/"><i class="fa fa-linkedin-square" style="color:white;"></i></a> 
+                        
+                                               
                     </div>
                 </div>
                 <div class="col-xl-8" style="padding-top: 30px;">
@@ -92,7 +97,7 @@
                             Dr Rahul Mangal is an Assistant Professor in Chemical Engineering at IIT Kanpur. His research interests include Soft Matter, Polymer Physics, Active Matter and Liquid Crystals.
                         </p>
                     </div>
-                    <hr>
+                    <hr class="theme-white">
                     <div class="row" style="line-height:1.8;padding-bottom: 50px;">
                         <div class="col-md-5">
                             <h3>Interests</h3>
@@ -119,54 +124,54 @@
     </div>
 
     <!-- Honors and Awards -->
-    <div class="container-fluid bg-light" id="awards" style="padding-top:100px;padding-bottom:100px;">
-        <div class="container">
+    <div class="container-fluid text-light bg-secondary" id="awards" style="padding-top:100px;padding-bottom:100px;">
+        <div class="container ">
             <div class="row">
                 <div class="col-lg-3 ">
                     <h2>Honors & Awards</h2>
-                    <hr>
+                    <hr class="theme-white">
                 </div>
                 <div class="col-lg-9">
                     <div class="container-fluid">
                         <!--
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Name of Award  (Year)</h5>
                                 <p class="card-text">Details</p>
                             </div>
                         </div>
                         -->
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Early Career Research Award, (2019-2022)</h5>
                                 <p class="card-text">Science and Engineering Research Board, Government of India</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark" >
                             <div class="card-body">
                                 <h5 class="card-title">Ramanujan Fellowship, (2017-2022)</h5>
                                 <p class="card-text">Science and Engineering Research Board, Government of India</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Outstanding Graduate Teaching Assistant, (2016)</h5>
                                 <p class="card-text">Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">McMullen Fellowship, (2012)</h5>
                                 <p class="card-text">Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Academic Excellence, (2009)</h5>
                                 <p class="card-text">Indian Institute of Technology (IIT) Kanpur </p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Academic Excellence, (2008)</h5>
                                 <p class="card-text">Indian Institute of Technology (IIT) Kanpur</p>
@@ -179,16 +184,16 @@
     </div>
 
     <!-- Teaching IITK -->
-    <div class="container-fluid" id="teaching" style="padding-top:100px;padding-bottom:100px;">
-        <div class="container">
+    <div class="container-fluid text-light" id="teaching" style="padding-top:100px;padding-bottom:100px;">
+        <div class="container ">
             <div class="row">
                 <div class="col-xl-3 ">
                     <h2>Teaching @ IITK</h2>
-                    <hr>
+                    <hr class="theme-white">
                 </div>
                 <div class="col-xl-9">
                     <div class="container-fluid">
-                        <div class="card">
+                        <div class="card bg-secondary">
                             <div class="card-body">
                                 <h5 class="card-title">Undergraduate Courses</h5>
                                 <p class="card-text">
@@ -200,7 +205,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-secondary">
                             <div class="card-body">
                                 <h5 class="card-title">Graduate Courses</h5>
                                 <p class="card-text">
@@ -218,19 +223,19 @@
     </div>
 
     <!-- Research and Projects -->
-    <div class="container-fluid bg-light" id="research" style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid text-light bg-secondary" id="research" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
                     <h2>Research</h2>
-                    <hr>
+                    <hr class="theme-white">
                 </div>
                 <div class="col-xl-9 text-justify">
                     <div style="padding-bottom: 30px;">
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Research Interest</h5>
-                                <hr>
+                                <hr class="theme-white">
                                 <p class="card-text">
                                     <ul>
                                         <li>Active Matter</li>
@@ -243,12 +248,13 @@
                         </div>
                     </div>
                     <div style="padding-bottom: 30px;">
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Ongoing Projects</h5>
+                                <hr class="theme-white">
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Active Colloids and Emulsions</h5>
                                 <p class="card-text">
@@ -256,7 +262,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Impact of Shock Waves on the Structure and Dynamics of Polymer Nano-composites (PNCs)</h5>
                                 <p class="card-text">
@@ -267,10 +273,10 @@
                     </div>
                     
                     <div style="padding-bottom: 30px;">
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="card-body">
                                 <h5 class="card-title">Open Positions  <i class="fa fa-refresh fa-spin" style="color: red;"></i></h5>
-                                <hr>
+                                <hr class="theme-white">
                                 <p class="card-text">
                                     I am looking for motivated Post Docs, PhDs, Masters/Dual Degree students to work with me on interesting problems in colloids and complex fluids. Please check my research brief and papers for further details. Interested candidates can contact me by email with a short description about their interests.
                                 </p>
@@ -283,20 +289,20 @@
     </div>
 
     <!-- News section-->
-    <div class="container-fluid bg-light" id="news" style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid text-light" id="news" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
                     <h2>News</h2>
-                    <hr>
+                    <hr class="theme-white">
                 </div>
                 <div class="col-xl-9 text-justify">
 
 
-                    <div class="card" >
+                    <div class="card bg-secondary" >
                         <div class="card-body">
                             <h5 class="card-title"> Recent News </h5>
-                            <hr>
+                            <hr class="theme-white">
                             <p class="card-text">
                                 <ul style="line-height: 1.6;">
                                     <!-- Add the news to all news section while deleting from recent news. All news section is below.-->
@@ -320,18 +326,18 @@
                     </div>
 
                     <!-- Popup Window Content-->
-                    <div class="modal fade" id="all_news" >
+                    <div class="modal fade " id="all_news" >
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                             
                                 <!-- Popup Header -->
-                                <div class="modal-header">
+                                <div class="modal-header bg-secondary">
                                     <h4 class="modal-title">All News</h4>
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 </div>
                                 
                                 <!-- Popup window body || News Content-->
-                                <div class="modal-body">
+                                <div class="modal-body bg-secondary">
                                     <ul>
                                         <li>Oct. 4th, 2019: Anivesh Mehra successfully defended his Masters Thesis. Congrats Anivesh.</li>
                                         <li>Sept. 27, 2019: Vinay Mohania successfully defended his Masters Thesis. Congrats Vinay.</li>
@@ -344,7 +350,7 @@
                                 </div>
                                 
                                 <!-- Popup footer -->
-                                <div class="modal-footer">
+                                <div class="modal-footer bg-secondary">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                 </div>
                             
@@ -353,27 +359,24 @@
                     </div>
                     <!-- End: All News Section  -->
 
-
-
-
                 </div>
             </div>
         </div>
     </div>
 
     <!-- publications -->
-    <div class="container-fluid" id="publications" style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid text-light bg-secondary " id="publications" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
                     <h2>Publications</h2>
-                    <hr>
+                    <hr class="theme-white">
                 </div>
                 <div class="col-xl-9 text-justify">
 
                     <!--
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body bg-dark">
                             <h5 class="card-title">
                                 #Topic
                                 <a target="_blank" href="#"><i class="fa fa-external-link" style="color: red;"></i></a>
@@ -383,7 +386,7 @@
                     </div>
                     -->
 
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Instability Driven by shear thinning and elasticity in the flow of concentrated polymer solutions through microtubes.
@@ -392,7 +395,7 @@
                             <p class="card-text">B. Chandra, R. Mangal, D. Das and V. Shankar, Phys. Rev. Fluids 4, 083301 (2019).</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Dynamics of nanoparticles in entangled polymer solutions.
@@ -401,7 +404,7 @@
                             <p class="card-text">P. Nath, R. Mangal, F. F. Kohle, S. Chodhury, S. Narayanan, U. B. Wiesner and L. A. Archer, Langmuir 34(1), (2017).</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card  bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Active Janus Particles at Interfaces of Liquid Crystals.
@@ -410,7 +413,7 @@
                             <p class="card-text">R. Mangal, N. Karthik, Y. K. Kim, E. Bukusoglu, U. M. Cordova-Figuerora and N. L. Abbott, Langmuir 33 (41), (2017).</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Phase stability and dynamics of entangled polymer nanoparticle composites.
@@ -419,7 +422,7 @@
                             <p class="card-text">R. Mangal, S. Srivastava, and L. A. Archer, Nature Communications 32 (2), (2016).</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">
                                 A highly reversible room-temperature lithium metal battery based on crosslinked hairy nanoparticles.
@@ -428,7 +431,7 @@
                             <p class="card-text">S. Chodhury, R. Mangal, A. Agrawal and L. A. Archer, Nature Communications 6, 10105 (2015).</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Size-Dependent Particle Dynamics in Entangled Polymer Nanocomposites.
@@ -437,7 +440,7 @@
                             <p class="card-text">R. Mangal, S. Srivastava, S. Narayanan and L. A. Archer, Langmuir 6, 7198 (2015).</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Multiscale Dynamics of Polymers in Particle-Rich Nanocomposites.
@@ -446,7 +449,7 @@
                             <p class="card-text">R. Mangal, , Y. H. Wen, S. Chodhury and L. A. Archer, Macromolecules 49 (14), (2016).</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Enthalpy-Driven Stabilization of Dispersions of Polymer-Grafted Nanoparticles in High-Molecular-Weight Polymer Melts.
@@ -455,7 +458,7 @@
                             <p class="card-text">R. Mangal, , P. Nath, M. Tikekar, and L. A. Archer, Macromolecules 32 (41), (2016).</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Hyperdiffusive Dynamics in Newtonian Nanoparticle Fluids.
@@ -464,7 +467,7 @@
                             <p class="card-text">S. Srivastava, P. Agarwal, R. Mangal, D. L. Koch, S. Narayanan and L. A. Archer, Macroletters 4 (10) (2015).</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Relaxation Dynamics of Nanoparticle-Tethered Polymer Chains.
@@ -473,7 +476,7 @@
                             <p class="card-text">S. Kim, R. Mangal, and L. A. Archer, Macromolecules 48 (17) (2015).</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-dark">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Biomimetic Wet Adhesion of Viscoelastic Liquid Films Anchored on Micropatterned Elastic Substrates.
@@ -488,19 +491,19 @@
     </div>
 
     <!-- Start: Students Section  -->
-    <div class="container-fluid " id="students" style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid text-light " id="students" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
                     <h2>Students</h2>
-                    <hr>
+                    <hr class="theme-white">
                 </div>
                 <div class="col-xl-9">
 
                     <!-- Start: Current PhD Students-->
                     <div style="padding-bottom: 100px;">
                         <h5 class="card-title">PhD Students (Current)</h5>
-                        <hr>
+                        <hr class="theme-white">
 
                         <div class="row">
                             <div class="col-md-3">
@@ -516,7 +519,7 @@
                             </div>
                         </div>
 
-                        <hr>
+                        <hr class="theme-white">
 
                         <div class="row">
                             <div class="col-md-3">
@@ -532,7 +535,7 @@
                             </div>
                         </div>
 
-                        <hr>
+                        <hr class="theme-white">
 
                         <div class="row">
                             <div class="col-md-3">
@@ -547,14 +550,14 @@
                                 </p>
                             </div>
                         </div>
-                        <hr>
+                        <hr class="theme-white">
                     </div>
                     <!-- End: Current PhD Students-->
 
                     <!-- Start: Curent MTech / Dual Degree Students -->
                     <div style="padding-bottom: 30px;">
                         <h5 class="card-title">MTech / Dual Degree Studentss (Current)</h5>
-                        <hr>
+                        <hr class="theme-white">
 
                         <div class="row">
                             <div class="col-md-3">
@@ -570,7 +573,7 @@
                             </div>
                         </div>
 
-                        <hr>
+                        <hr class="theme-white">
 
                         <div class="row">
                             <div class="col-md-3">
@@ -586,7 +589,7 @@
                             </div>
                         </div>
 
-                        <hr>
+                        <hr class="theme-white">
 
                         <div class="row">
                             <div class="col-md-3">
@@ -601,7 +604,7 @@
                                 </p>
                             </div>
                         </div>
-                        <hr>
+                        <hr class="theme-white">
                     </div>
                     <!-- End: Curent MTech / Dual Degree Students -->
 
@@ -612,19 +615,19 @@
                         </div>
 
                         <!-- The Modal -->
-                        <div class="modal fade" id="past_students">
+                        <div class="modal fade " id="past_students">
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                 
                                     <!-- Modal Header -->
-                                    <div class="modal-header">
+                                    <div class="modal-header bg-secondary">
                                         <h4 class="modal-title">Past Students (MTech / Dual / PhD)</h4>
                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     </div>
                                     
                                     <!-- Modal body || Past Student Content-->
-                                    <div class="modal-body">
-                                        <table class="table table-striped">
+                                    <div class="modal-body bg-secondary ">
+                                        <table class="table table-striped text-light">
                                             <thead>
                                                 <tr>
                                                     <th>Name</th>
@@ -654,17 +657,12 @@
                                                     <td></td>
                                                     <td></td>
                                                 </tr>
-                                                <tr>
-                                                    <td>-</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                     
                                     <!-- Modal footer -->
-                                    <div class="modal-footer">
+                                    <div class="modal-footer bg-secondary">
                                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                     </div>
                                 
@@ -681,27 +679,27 @@
     <!-- Students Section End -->
 
     <!-- contact -->
-    <div class="container-fluid bg-light" id="contacts" style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid text-light bg-secondary" id="contacts" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
                     <h2>Contacts</h2>
-                    <hr>
+                    <hr class="theme-white">
                 </div>
                 <div class="col-xl-9">
 
                     <!-- Sending Email API : https://formspree.io/ -->
                     
                     <div style="padding-bottom: 100px;">
-                        <form action="https://formspree.io/meqlnpqrbr" method="POST">
+                        <form action="https://formspree.io/meqlnpqr" method="POST">
                             <div class="form-group">
-                                <input type="text" name="Name" class="form-control" id="name" placeholder="Your Name" required>
+                                <input type="text" name="Name" class="form-control bg-light" id="name" placeholder="Your Name" required>
                               </div>
                               <div class="form-group">
-                                  <input type="text" name="Email_ID"class="form-control" placeholder="Your Email " required>
+                                  <input type="text" name="Email_ID"class="form-control bg-light" placeholder="Your Email " required>
                               </div>
                               <div class="form-group">
-                                <textarea name="Message" class="form-control" rows="5" id="message" placeholder="Message" required></textarea>
+                                <textarea name="Message" class="form-control bg-light" rows="5" id="message" placeholder="Message" required></textarea>
                               </div>
                               <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="To get Quick Response: Send direct mail to (mangalr@iitk.ac.in), instead of this form!" >Send Message</button>
                         </form>
@@ -769,7 +767,7 @@
     <!-- footer -->
     <div class="container-fluid bg-dark" style="padding:50px;">
         <div class="container text-center text-white">
-            Developed by <a target="_blank" href="http://www.therajababu.com/" data-toggle="tooltip" data-placement="top" title="www.therajababu.com" >Raja Babu <i class="fa fa-external-link" style="color:white;"></i></a>.
+            &copy; Developed by <a target="_blank" href="http://www.therajababu.com/" data-toggle="tooltip" data-placement="top" title="www.therajababu.com" >Raja Babu <i class="fa fa-external-link" style="color:white;"></i></a>.
         </div>
     </div>
 
