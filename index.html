@@ -29,7 +29,7 @@
     <div class="container-fluid bg-dark">
         <div class="container">
             <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-                <a class="navbar-brand" href="#">Dr Rahul Mangal</a>
+                <a class="navbar-brand" href="#">Dr Rahul Mangal &emsp;&emsp;</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -46,6 +46,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#research">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#publications">Publications</a>
@@ -82,8 +85,8 @@
                         <a target="_blank" href="https://www.linkedin.com/in/rahulmangal/"><i class="fa fa-linkedin-square" style="color:#3366cc;"></i></a>                        
                     </div>
                 </div>
-                <div class="col-xl-8" >
-                    <div style="padding-top: 50px;padding-bottom: 20px;" >
+                <div class="col-xl-8" style="padding-top: 30px;">
+                    <div style="padding-top: 50px;padding-bottom: 30px;" >
                         <h3>Biography</h3>
                         <p class="text-justify">
                             Dr Rahul Mangal is an Assistant Professor in Chemical Engineering at IIT Kanpur. His research interests include Soft Matter, Polymer Physics, Active Matter and Liquid Crystals.
@@ -108,46 +111,6 @@
                                     <li><i class="fa fa-graduation-cap fa-li fa-pull-left"></i> M.Tech., Chemical Engineering, IIT Kanpur</li>
                                     <li><i class="fa fa-graduation-cap fa-li fa-pull-left"></i> B.Tech., Chemical Engineering, IIT Kanpur</li>
                                 </ul>
-                        </div>
-                    </div>
-
-                    <!-- Recent News Section -->
-                    <div>
-                        <div class="text-center">
-                            <button type="button" class="btn btn-info" style="width:250px;" data-toggle="modal" data-target="#myNews">Recent News ( Click )</button>
-                        </div>
-                        
-                        <!-- The Modal -->
-                        <div class="modal fade" id="myNews">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                
-                                    <!-- Modal Header -->
-                                    <div class="modal-header">
-                                        <h4 class="modal-title">Recent News</h4>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-                                    
-                                    <!-- Modal body || News Content-->
-                                    <div class="modal-body">
-                                        <ul>
-                                            <li>Oct. 4th, 2019: Anivesh Mehra successfully defended his Masters Thesis. Congrats Anivesh.</li>
-                                            <li>Sept. 27, 2019: Vinay Mohania successfully defended his Masters Thesis. Congrats Vinay.</li>
-                                            <li>Jun. 28, 2019: Bishwa Ranjan Si successfully defended his Masters Thesis. Congrats Bishwa.</li>
-                                            <li>Feb. 25, 2019: Dr. Rahul Mangal received the DST SERB Early Career Research Grant.</li>
-                                            <li>Jan. 7, 2019: Utkarsh Sharma and Shruti Khandelwal joined as new Masters students in the group. CPPG welcomes them.</li>
-                                            <li>Oct. 12, 2018: Karnika SIngh and Sweta Sarangi joined as new PhD students to the group. Welcome to both!</li>
-                                            <li>Aug. 22, 2018: Colloids and Polymer Physics lab. was inaugurated today.</li>
-                                        </ul>
-                                    </div>
-                                    
-                                    <!-- Modal footer -->
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                    </div>
-                                
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -319,6 +282,85 @@
         </div>
     </div>
 
+    <!-- News section-->
+    <div class="container-fluid bg-light" id="news" style="padding-top:100px;padding-bottom:100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3">
+                    <h2>News</h2>
+                    <hr>
+                </div>
+                <div class="col-xl-9 text-justify">
+
+
+                    <div class="card" >
+                        <div class="card-body">
+                            <h5 class="card-title"> Recent News </h5>
+                            <hr>
+                            <p class="card-text">
+                                <ul style="line-height: 1.6;">
+                                    <!-- Add the news to all news section while deleting from recent news. All news section is below.-->
+
+                                    <li>Oct. 4th, 2019: Anivesh Mehra successfully defended his Masters Thesis. Congrats Anivesh.</li>
+                                    <li>Sept. 27, 2019: Vinay Mohania successfully defended his Masters Thesis. Congrats Vinay.</li>
+                                    <li>Jun. 28, 2019: Bishwa Ranjan Si successfully defended his Masters Thesis. Congrats Bishwa.</li>
+                                    <li>Feb. 25, 2019: Dr. Rahul Mangal received the DST SERB Early Career Research Grant.</li>
+                                    <li>Jan. 7, 2019: Utkarsh Sharma and Shruti Khandelwal joined as new Masters students in the group. CPPG welcomes them.</li>
+                                    <li>Oct. 12, 2018: Karnika SIngh and Sweta Sarangi joined as new PhD students to the group. Welcome to both!</li>
+                                    <li>Aug. 22, 2018: Colloids and Polymer Physics lab. was inaugurated today.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <!--Start: All News Section  -->
+                    <div class="text-center" style="padding-top: 30px;" >
+                        <button type="button" class="btn btn-info" style="width:200px;" data-toggle="modal" data-target="#all_news">All News </button>
+                    </div>
+
+                    <!-- Popup Window Content-->
+                    <div class="modal fade" id="all_news" >
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                            
+                                <!-- Popup Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">All News</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                
+                                <!-- Popup window body || News Content-->
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Oct. 4th, 2019: Anivesh Mehra successfully defended his Masters Thesis. Congrats Anivesh.</li>
+                                        <li>Sept. 27, 2019: Vinay Mohania successfully defended his Masters Thesis. Congrats Vinay.</li>
+                                        <li>Jun. 28, 2019: Bishwa Ranjan Si successfully defended his Masters Thesis. Congrats Bishwa.</li>
+                                        <li>Feb. 25, 2019: Dr. Rahul Mangal received the DST SERB Early Career Research Grant.</li>
+                                        <li>Jan. 7, 2019: Utkarsh Sharma and Shruti Khandelwal joined as new Masters students in the group. CPPG welcomes them.</li>
+                                        <li>Oct. 12, 2018: Karnika SIngh and Sweta Sarangi joined as new PhD students to the group. Welcome to both!</li>
+                                        <li>Aug. 22, 2018: Colloids and Polymer Physics lab. was inaugurated today.</li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Popup footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End: All News Section  -->
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- publications -->
     <div class="container-fluid" id="publications" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
@@ -445,8 +487,8 @@
         </div>
     </div>
 
-    <!-- Students -->
-    <div class="container-fluid bg-light" id="students" style="padding-top:100px;padding-bottom:100px;">
+    <!-- Start: Students Section  -->
+    <div class="container-fluid " id="students" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
@@ -455,10 +497,11 @@
                 </div>
                 <div class="col-xl-9">
 
-                    <!-- Current PhD Students-->
+                    <!-- Start: Current PhD Students-->
                     <div style="padding-bottom: 100px;">
                         <h5 class="card-title">PhD Students (Current)</h5>
                         <hr>
+
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
@@ -472,7 +515,9 @@
                                 </p>
                             </div>
                         </div>
+
                         <hr>
+
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
@@ -486,7 +531,9 @@
                                 </p>
                             </div>
                         </div>
+
                         <hr>
+
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
@@ -502,11 +549,13 @@
                         </div>
                         <hr>
                     </div>
+                    <!-- End: Current PhD Students-->
 
-                    <!-- Curent MTech / Dual Degree Students -->
-                    <div style="padding-bottom: 100px;">
+                    <!-- Start: Curent MTech / Dual Degree Students -->
+                    <div style="padding-bottom: 30px;">
                         <h5 class="card-title">MTech / Dual Degree Studentss (Current)</h5>
                         <hr>
+
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
@@ -516,11 +565,13 @@
                             <div class="col-md-9">
                                 <p><b>Shruti Khandelwal</b> &emsp;( shrutik@iitk.ac.in )</p>
                                 <p class="text-justify">
-                                    null
+                                    <!-- Info about Shruti -->
                                 </p>
                             </div>
                         </div>
+
                         <hr>
+
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="card" style="width:150px">
@@ -530,28 +581,12 @@
                             <div class="col-md-9">
                                 <p><b>Utkarsh Sharma</b> &emsp;( sutkars@iitk.ac.in )</p>
                                 <p class="text-justify">
-                                    null
+                                    <!-- Info about Utkarsh -->
                                 </p>
                             </div>
                         </div>
-                        <hr>
 
-                        <!--
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="card" style="width:150px">
-                                    <img class="rounded mx-auto d-block img-fluid" src="images/student-male.jpg" alt="Student Image">
-                                </div>
-                            </div>
-                            <div class="col-md-9">
-                                <p><b>Ravindra Jangid</b> &emsp;( null@iitk.ac.in )</p>
-                                <p class="text-justify">
-                                    null
-                                </p>
-                            </div>
-                        </div>
                         <hr>
-                        -->
 
                         <div class="row">
                             <div class="col-md-3">
@@ -562,51 +597,91 @@
                             <div class="col-md-9">
                                 <p><b>Rohan Jha</b> &emsp;( rohanjh@iitk.ac.in )</p>
                                 <p class="text-justify">
-                                    null
+                                    <!-- Info about Rohan -->
                                 </p>
                             </div>
                         </div>
                         <hr>
-                        
                     </div>
+                    <!-- End: Curent MTech / Dual Degree Students -->
 
-                    <!-- Past Students Details -->
+                    <!-- Start: Past Students Details -->
                     <div>
-                        <h5>Past Students</h5>
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                  <th>Name</th>
-                                  <th>Contact</th>
-                                  <th>Specialization / Other Details</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                    <tr>
-                                        <td>Ravindra Jangid</td>
-                                        <td>null</td>
-                                        <td>null</td>
-                                    </tr>
-                                    <tr>
-                                        <td>null</td>
-                                        <td>null</td>
-                                        <td>null</td>
-                                    </tr>
-                                    <tr>
-                                        <td>null</td>
-                                        <td>null</td>
-                                        <td>null</td>
-                                    </tr>
-                              </tbody>
-                        </table>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-info" style="width:300px;" data-toggle="modal" data-target="#past_students">Past Students (MTech / Dual / PhD) </button>
+                        </div>
+
+                        <!-- The Modal -->
+                        <div class="modal fade" id="past_students">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Past Students (MTech / Dual / PhD)</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    
+                                    <!-- Modal body || Past Student Content-->
+                                    <div class="modal-body">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Contact</th>
+                                                    <th>Specialization / Other Details</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- New data can be added here-->
+                                                <tr>
+                                                    <td>Anivesh Mehra</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Vinay Mohania</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bishwa Ranjan</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ravindra Jangid</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>-</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+                    <!-- End: Past Students Details Above-->
                 </div>
             </div>
         </div>
     </div>
+    <!-- Students Section End -->
 
     <!-- contact -->
-    <div class="container-fluid" id="contacts" style="padding-top:100px;padding-bottom:100px;">
+    <div class="container-fluid bg-light" id="contacts" style="padding-top:100px;padding-bottom:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 ">
