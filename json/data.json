@@ -1,0 +1,259 @@
+{
+    "Name": "Dr. Manjesh K. Singh",
+    "img_src":"dp.jpg",
+    "navbar_list":[
+       "Home",
+       "Awards",
+       "Teaching",
+       "Research",
+       "News",
+       "Publications",
+       "Students",
+       "Contacts" 
+    ],
+    "Designation": "Assistant Professor",
+    "Department": {
+      "Name": "Department of Mechanical Engineering",
+      "url": "https://www.iitk.ac.in/me/"
+    },
+    "Institute": {
+        "Name": "Indian Institute of Technology (IIT) Kanpur",
+        "url": "https://www.iitk.ac.in/"
+      },
+    "Description":{
+        "Name": "Biography",
+        "content": "Dr. Manjesh K. Singh joined the Department of Mechanical Engineering, Indian Institute of Technology Kanpur on 16th September 2019 as an Assistant Professor.The principal areas of his research are tribology and rheology—mostly with polymers. He has an interdisciplinary background with education in Mechanical and Materials Engineering and research experience in both computer simulations and experiments. Dr. Singh is a life member of the Tribology Soceity of India."
+    },
+    "Education":[
+        "Ph.D. (2016): Department of Materials, Swiss Federal Institute of Technology (ETH Zurich), Switzerland.",
+        "M.E. (2011): Materials Engineering, Indian Institute of Science (IISc.), Bangalore, India.",
+        "B.E. (2009): Mechanical Engineering, Indian Institute of Engineering Science and Technology (IIEST) Shibpur, India."
+    ],
+    "Awards": {
+        "Title": "Awards and Recognitions",
+        "List":[
+            {
+                "Title":"International Nanotribology Forum: Chiang Rai,Thailand 2020",
+                "Description": "Scholarship covering registration, accommodation and travel assistance to attend International Nanotribology Forum: Thailand 2020, Jan. 12-17, 2020 at Chiang Rai, Thailand."
+            },
+            {
+                "Title":"IndiaTrib: Bangalore, India 2019",
+                "Description": "Best Oral Presentation (academia) at IndiaTrib-2019, Dec. 1-4, 2019, at Bangalore, India."
+            },
+            {
+                "Title":"International Nanotribology Forum: Kerala, India 2014",
+                "Description": "Scholarship covering registration, accommodation and travel assistance to attend International Nanotribology Forum: Kerala 2014, Jan. 6-10, 2014 at Cochin, Kerala, India."
+            },
+            {
+                "Title":"Gordon Research Conference (Tribology) :Waterville, ME, USA 2012",
+                "Description": "Travel grant to attend Gordon Research Conference: Tribology, July 8-13, 2012 at Waterville, ME, USA"
+            },
+            {
+                "Title":"International Nanotribology Forum (The Hoi An Discussions): Hoi An, Vietnam 2011",
+                "Description": "Scholarship covering registration, accommodation and travel assistance to attend International Nanotribology Forum: The Hoi An Discussions, May 23-27, 2011, Hoi An, Vietnam."
+            }
+        ]
+      },
+      "Teaching": {
+        "Title":"Teaching",
+        "List":[
+            {
+                "Title":"IIT Kanpur",
+                "List": [
+                    "ME698T: Introduction to Tribology ( even semester 2019-20 session)."
+                ]
+            },
+            {
+                "Title":"ETH Zurich",
+                "List": [
+                    "Took laboratory classes for undergraduate students on Atomic Force Microscopy for 4 semesters during Sep. 2012 - May 2014.",
+                    "Teaching Assistant for the course, Atomic Force Microscopy in Materials Science, ETH course number 327-2223-00L held in February 2016"
+                ]
+            }
+        ]
+      },
+      "Conference":{
+        "Title":"Conference",
+        "List":[
+            {
+                "Title":"Invited Talk",
+                "List":[
+                    "Tribology for Sustainable Development, July 20 -24, 2020; Webinar Organizer: Shri Mata Vaishno University, India. Title: Polymer Brushes and Gels: Imitating Lubrication in Nature.",
+                    "Advanced Materials Technology, Feb. 1-5, 2020, Webinar Organizer: Malnad College of Engineering. Title: Polymer Brush based Tribology."
+                ]
+            },
+            {
+                "Title":"Contributed Talk",
+                "List":[
+                    "Molecular Simulations of Complex Fluids and Interfaces, Feb. 21-23, 2020 at : IIT Kanpur, India. Title: Rheology of Nonequilibrium Polymer Melt.",
+                    "International Nanotribology Forum: Thailand 2020, Jan. 12-17, 2020 at Chiang Rai, Thailand. Title: Effect of Crosslinking on Tribological Behavior of Polymer-Brushes.",
+                    "IndiaTrib-2019, Dec. 1-4, 2019, at Bangalore, India. Title: Tribological Behavior of Polymer Brushes: Effect of crosslinking.",
+                    "DPG Spring Meeting 2019, 31 March - 05 April, 2019 at Regensburg, Germany. Title: Rheology of Nonequilibrium Polymer Melt.",
+                    "DPG Spring Meeting 2018, March 11-16, 2018 at Berlin, Germany. Title: Relaxation of Disentangled and Collapsed Polymer Chains in a Melt.",
+                    "International Tribology Conference, Sep. 16-20, 2015 at Tokyo, Japan. Title: Molecular Dynamics Simulation of Crosslinked Polymer Brushes.",
+                    "Swiss-Japanese Tribology Meeting, Sep. 8-10, 2014 at Zurich, Switzerland. Title: MD Simulation of Polymer Brushes based Tribology.",
+                    "AsiaTib-2014, Feb. 17-20, 2014 at Agra, India. Title: Modelling Studies of Interacting Polymer-Brushes under Shear.",
+                    "International Nanotribology Forum: Kerala 2014, Jan. 6-10, 2014 at Kochi, Kerala, India. Title: Non-equilibrium Molecular Dynamics Simulation of Polymer-Brushes.",
+                    "5th World Tribology Congress, Sep. 8-13, 2013 at Torino, Italy. Title: Combined Experimental and Simulation studies of Polymer Brushes under Shear."
+                ]
+            },
+            {
+                "Title":"Poster Presentation",
+                "List":[
+                    "CompFlu 2019, Dec. 5-7, 2019 at IISER Bhopal, India. Title: Rheology of Nonequilibrium Polymer Melt.",
+                    "Mainz Materials Simulation Days 2017, June 12-14, 2017 at Mainz, Germany. Title: Relaxation of Disentangled and Collapsed Polymer Chains in a Melt.",
+                    "Soft Smart Responsive Materials: Fundamentals and Applications, May 11-12, 2017 at Mainz, Germany. Title: Relaxation of Disentangled and Collapsed Polymer Chains in a Melt.",
+                    "Tribology: Interactions Beyond the Surface: A tribute to Prof. Jean-Marie Georges, March 30-31, 2016 at Lyon, France. Title: Simulation and Experimental Studies of Polymer Brushes under Shear.",
+                    "Gordon Research Conference: Tribology, July 8-13, 2012 at Waterville, ME, USA. Title: Modeling studies of interacting Polymer Brushes under Shear.",
+                    "International Nanotribology Forum: The Hoi An Discussions, May 23-27, 2011, Hoi An, Vietnam. Title: Simulation and Validation of Roll-Separating Forces and Limiting Reduction in Cold Rolling.",
+                    "7th International Conference on Industrial Tribology, Dec. 2-4, 2010 at RDCIS, Ranchi, India.",
+                    "48th National Metallurgist Day (NMD), Nov. 14-16, 2010 at Indian Institute of Science, Bangalore, India. Title: Simulation and Validation of Roll-Separating Forces and Limiting Reduction in Cold Rolling."
+                ]
+            }
+        ]
+      },
+      "Publications": {
+        "Title":"Publications",
+        "List":[
+            {
+                "Title":"Glass Transition Temperature of Disentangled Polymer Melts: Single-chain-nanoparticles approach",
+                "url": "",
+                "Description": "Manjesh K. Singh, Minghan Hu, Yu Cang, Hsiao-Ping Hsu, Heloise Therien-Aubin, Kaloian Koynov, George Fytas, Katharina Landfester and Kurt Kremer; (submitted)."
+            },
+            {
+                "Title":"Polymer Brush Based Tribology",
+                "url":"https://www.google.com/url?q=https%3A%2F%2Flink.springer.com%2Fchapter%2F10.1007%2F978-3-030-47451-5_2&sa=D&sntz=1&usg=AOvVaw3L98MuBrTyG5e774uQSidQ",
+                "Description": "Manjesh K. SIngh, In: Katiyar J., Ramkumar P., Rao T., Davim J. (eds) Tribology in Materials and Applications. Materials Forming, Machining and Tribology. Springer, Cham 2020, 15-32."
+            },
+            {
+                "Title":"Why Do Elastin-Like Polypeptides Possibly Have Different Solvation Behaviors in Water–Ethanol and Water–Urea Mixtures?",
+                "url":"https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1021%2Facs.macromol.9b02123&sa=D&sntz=1&usg=AOvVaw3yaAg7KYGgiLuzwjkj8iCE",
+                "Description": "Yani Zhao, Manjesh K. Singh, Kurt Kremer, Debashish Mukherji and Robinson Cortes-Huerto; Macromolecules 2020, 53 (6), 2101-2110."
+            },
+            {
+                "Title":"Combined Experimental and Simulation Studies of Cross-Linked Polymer Brushes under Shear",
+                "url":"https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1021%2Facs.macromol.8b01363&sa=D&sntz=1&usg=AOvVaw2-UM8AD-IefcvXYVuJOYjD",
+                "Description": "Manjesh K. Singh, Chengjun Kang, Patrick Ilg, Rowena Crockett, Martin Kröger and Nicholas D. Spencer; Macromolecules 2018, 51 (24), 10174-10183"
+            },
+            {
+                "Title":"Effect of Crosslinking on the Microtribological Behavior of Model Polymer Brushes",
+                "url":"https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1007%2Fs11249-016-0705-8&sa=D&sntz=1&usg=AOvVaw2OxQXgqDMsgbNvFTFwBwGY",
+                "Description": "Manjesh K. Singh, Patrick Ilg, Rosa M. Espinosa-Marzal, Martin Kröger and Nicholas D. Spencer; Tribol. Lett. 2016, 63, 17."
+            },
+            {
+                "Title":"Influence of Chain Stiffness, Grafting Density and Normal Load on the Tribological and Structural Behavior of Polymer Brushes: A Nonequilibrium-Molecular-Dynamics Study",
+                "url":"https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.3390%2Fpolym8070254&sa=D&sntz=1&usg=AOvVaw1AU2XIY9k3SoJ0HSRn7lKb",
+                "Description": "Manjesh K. Singh, Patrick Ilg, Rosa M. Espinosa-Marzal, Nicholas D. Spencer and Martin Kröger; Polymers 2016, 8 (7), 254."
+            },
+            {
+                "Title":"Polymer Brushes under Shear: Molecular Dynamics Simulations Compared to Experiments",
+                "url":"https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1021%2Facs.langmuir.5b00641&sa=D&sntz=1&usg=AOvVaw2KcRkrFBCWovLB_beUYV4v",
+                "Description": "Manjesh K. Singh, Patrick Ilg, Rosa M. Espinosa-Marzal, Martin Kröger and Nicholas D. Spencer; Langmuir 2015, 31 (16), 4978-4805"
+            },
+            {
+                "Title":"Combined Modeling and Experimental Studies of Interacting Polymer Brushes under Shear",
+                "url":"",
+                "Description": "Manjesh K. Singh, Patrick Ilg, Rosa M. Espinosa-Marzal, Martin Kröger and Nicholas D. Spencer; 5th World Tribology Congress, WTC 2013. Vol. 3 Politecnico di Torino (DIMEAS), 2014. p. 2440-2442"
+            }
+        ]
+      },
+      "Research": {
+        "Title":"Research",
+        "List":[
+            {
+                "Title":"Projects",
+                "List":[
+                    {
+                        "Title":"Disentangled Polymer Melt",
+                        "Description":"We use complementary experimental and simulation approach to study rheology of nonequilibrium disentangled melts of longer polymer chains. The idea is that such systems should display a different rheological behavior, glass transition temperature etc. in comparison to their equilibrated counterparts. The experimental part of the work involves fabrication of single-chain nanoparticles using electrospinning technique, characterizing (using SEM, TEM, AFM and NMR) and investigating the rheological properties, relaxation behavior and glass-transition temperature of disentangled polymer melts consisting of these single-chain nanoparticles. The theoretical part of my research involves performing bead-spring (Kremer-Grest) model based molecular dynamics simulations to prepare fully disentangled melt of globules of single independent chains. Thereafter the disentangled melt is allowed to relax and studied with respect to change in structure of polymer chains (radius of gyration, end-to-end distance and entanglement length), rheological behavior and glass-transition temperature. The development of entanglements during relaxation is studied using primitive path analysis (PPA)."
+                    },
+                    {
+                        "Title":"Polymer Brushes",
+                        "Description":"Nature has its own complex way of lubricating sliding surfaces with the help of glycoproteins. In recent times mankind has tried to imitate natural lubrication using polymer brushes. Polymer molecules are attached by one end to a surface using different approaches (‘grafting to’ or ‘grafting from’); if the surface grafting density is so high that the polymer chains start to overlap, they stretch away from the surface forming a polymer brush. The equilibrium brush height is larger than the size of the unperturbed chains in bulk solution. Polymer-brush-coated surfaces find applications in many fields including colloidal stabilization, adhesion, bio-compatibilization and tribology. The aim of our study is to understand the underlying molecular mechanisms of frictional behavior of polymer brushes and gels in a good solvent by employing complementary experimental and simulation studies."
+                    },
+                    {
+                        "Title":"Tribology in Cold-Rolling",
+                        "Description":"Rolling is one of the oldest and most important metalworking processes. The mechanical objective of rolling is to reduce the thickness of strip from an initial value to a pre-determined final value. It is done with the help of a rolling mill where two rolls rotating in opposite directions draw the work piece into the roll gap and force it to exit, causing reduction in the thickness of work piece. Friction is one of the most important parameters for the rolling process. In this context it is appropriate to quote Roberts (1997). Of all the variables associated with rolling, none is more important than friction in the roll bite. Friction in rolling, as in many other mechanical processes can be a best friend or a mortal enemy, and its control within an optimum range for each process is essential."
+                    }
+                ]
+            }
+        ]
+      },
+      "Students":{
+        "Title":"Students",
+        "List":[
+            {
+                "Title":"PhD Students (Current)",
+                "List":[
+                    {
+                        "Name":"Arko Biswas",
+                        "Contact":"barko@iitk.ac.in",
+                        "img_src":"images/arko.jpg",
+                        "Description":"I am Arko Biswas. I completed my B.Tech in Mechanical Engineering from Jalpaiguri Govt. Engineering College, Jalpaiguri (North Bengal), West Bengal. After that I completed my M.Tech in Mechatronics Engineering (under Electrical Engineering Department) from National Institute of Technical Teachers' Training & Research, Kolkata. Then I joined the PhD program (Robotics & Automation) in IIT Kanpur in July, 2019. My research interests include mainly robotics, automation, control system. Apart from that, I am also interested in instrumentation and control, Mechatronics, sensors & transducers, quantum mechanics, theory of relativity, electronic science.In my spare time, I prefer going through modern innovations in science and technology, browsing on current affairs in internet, reading detective mystery stories and science fictions."                    
+                    },
+                    {
+                        "Name":"Qurat Ul Ain",
+                        "Contact":"curatulayn@gmail.com",
+                        "img_src":"images/ain.jpg",
+                        "Description":"I am Qurat Ul Ain. I completed B.Tech in Mechanical Engineering from University of Kashmir in 2016 and qualified GATE 2018. I am currently pursuing (Direct) PhD in Mechanical Engineering Department at NIT Srinagar. I am being externally guided by Dr. Manjesh Kumar Singh with my research work at IIT Kanpur since Dec 2019. My research interests include Computational Tribology, Tribology of Polymer Composites and Molecular Dynamics Simulation. To mention some of my hobbies are trekking, container gardening and reading autobiographies."
+                    }
+                ]
+            },
+            {
+                "Title":"MTech / Dual Degree Students (Current)",
+                "List":[
+                    {
+                        "Name":"Biju S. Ratish",
+                        "Contact":"biju@iitk.ac.in",
+                        "img_src":"images/ratish.jpg",
+                        "Description":"I am Biju S Ratish. I completed B.E., Mechanical Engineering in SSN College of Engineering, Chennai in the year 2018. I joined IIT Kanpur in 2019 and i am currently pursuing MTech degree in Solid Mechanics and Design. I am interested in the field of Solid Mechanics, Machine design, Tribology and wish to do research in the same. Apart from that, I also have interest in other fields like Thermodynamics, IC Engines. My hobbies include Pencil sketching, photography and I like to play table tennis."                    
+                    },
+                    {
+                        "Name":"Kislay Raj",
+                        "Contact":"rkislay@iitk.ac.in",
+                        "img_src":"images/kislay.jpg",
+                        "Description":"I am Kislay Raj. I am a dual degree student in Mechanical Engineering. I joined IIT Kanpur in 2016. I have research interest in tribology of soft matter and contact mechanics. Apart from the core interest, I have inclination towards space technology and military research and development. My hobbies include playing football and reading socio-political current affairs."
+                    }
+                ]
+            }
+        ],
+        "Past_Student_List":{
+            "Title":"Past Students (MTech / Dual / PhD)",
+            "List":[
+                {
+                    "Name":"NA",
+                    "Contact":"NA",
+                    "Description":"NA"
+                }
+            ]
+        }
+      },
+      "Contacts":{
+        "Title": "Contacts",
+        "Email": "manjesh@iitk.ac.in",
+        "Google_scholar": "https://scholar.google.com/citations?user=qo_oTwUAAAAJ&hl=en",
+        "Linkedin":"https://www.linkedin.com/in/manjesh-singh-81167819/",
+        "Contact":[
+            {
+                "Title":"Office",
+                "Description":"+91-512-2592108"
+            },
+            {
+                "Title":"Laboratory",
+                "Description":"+91-512-2592108"
+            }
+        ],
+        "Address":[
+            {
+                "Title":"Office",
+                "Description":"Old IME Building, Mechanical Engineering Department,IIT Kanpur, Kanpur: 208016, Uttar Pradesh, India."
+            },
+            {
+                "Title":"Laboratory",
+                "Description":"Old IME Building, Mechanical Engineering Department,IIT Kanpur, Kanpur: 208016, Uttar Pradesh, India."
+            }
+        ]
+      }
+    
+  }
+  
