@@ -3,7 +3,7 @@ fetch("json/data.json")
     return response.json();
   })
   .then(function (data) {
-    
+    var navhref = ["introduction","awards","teaching","research","news","publications","students","contacts"] 
     document.getElementById("nav_name").innerHTML = data.Name;
     
     for(var key in data.navbar_list){
@@ -13,7 +13,7 @@ fetch("json/data.json")
         var new_element_2 = document.createElement("a")
         new_element_2.setAttribute('class',"nav-link")
         new_element_2.classList.add("text-dark")
-        new_element_2.setAttribute('href',"#"+data.navbar_list[key])
+        new_element_2.setAttribute('href',"#"+navhref[key])
         new_element_2.innerHTML =data.navbar_list[key]
         new_element.append(new_element_2)
         document.getElementById("nav_list").appendChild(new_element);
