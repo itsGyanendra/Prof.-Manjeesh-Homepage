@@ -24,19 +24,19 @@ fetch("json/data.json")
         // new_element_3.style.cssText="padding-top:100px;padding-bottom: 100px;"
         // document.body.appendChild(new_element_3)
     }
-    console.log(data.Department.Name)
     document.getElementById("display_name").innerHTML = data.Name
     document.getElementById("designation").innerHTML= data.Designation
     document.getElementById("department").setAttribute("href",data.Department.url)
-    document.getElementById("department").innerHTML= data.Department.Name
+    document.getElementById("department").innerHTML= data.Department.Title
     document.getElementById("institute").setAttribute("href",data.Institute.url)
-    document.getElementById("institute").innerHTML= data.Institute.Name
+    document.getElementById("institute").innerHTML= data.Institute.Title
     document.getElementById("icon_email").setAttribute("href","mailto:"+data.Contacts.Email)
     document.getElementById("icon_scholar").setAttribute("href",data.Contacts.Google_scholar)
     document.getElementById("icon_linkedin").setAttribute("href",data.Contacts.Linkedin)
-    document.getElementById("biography").innerHTML= data.Description.Name;
-    document.getElementById("biography_content").innerHTML= data.Description.content;
-    for(var key in data.Education){
+    document.getElementById("biography").innerHTML= data.Description.Title;
+    document.getElementById("biography_content").innerHTML= data.Description.Description;
+    document.getElementById("education_title").innerHTML=data.Education.Title
+    for(var key in data.Education.List){
         var new_element =document.createElement("li")
         var new_element_2 = document.createElement("i")
         new_element_2.setAttribute("class","fa")
@@ -44,9 +44,14 @@ fetch("json/data.json")
         new_element_2.classList.add("fa-li")
         new_element_2.classList.add("fa-pull-left")
         new_element.appendChild(new_element_2);
-        new_element.append(data.Education[key])
-        console.log(new_element)
-        document.getElementById("education").append(new_element)
+        new_element.append(data.Education.List[key])
+        document.getElementById("education_list").append(new_element)
+    }
+    document.getElementById("interest_title").innerHTML=data.Interest.Title
+    for(var key in data.Interest.List){
+        var new_element =document.createElement("li")
+        new_element.innerHTML=data.Interest.List[key]
+        document.getElementById("interest_list").append(new_element)
     }
     document.getElementById("awards_title").innerHTML=data.Awards.Title
     for(var key in data.Awards.List){

@@ -13,22 +13,33 @@
     ],
     "Designation": "Assistant Professor",
     "Department": {
-      "Name": "Department of Mechanical Engineering",
+      "Title": "Department of Mechanical Engineering",
       "url": "https://www.iitk.ac.in/me/"
     },
     "Institute": {
-        "Name": "Indian Institute of Technology (IIT) Kanpur",
+        "Title": "Indian Institute of Technology (IIT) Kanpur",
         "url": "https://www.iitk.ac.in/"
       },
     "Description":{
-        "Name": "Biography",
-        "content": "Dr. Manjesh K. Singh joined the Department of Mechanical Engineering, Indian Institute of Technology Kanpur on 16th September 2019 as an Assistant Professor.The principal areas of his research are tribology and rheology—mostly with polymers. He has an interdisciplinary background with education in Mechanical and Materials Engineering and research experience in both computer simulations and experiments. Dr. Singh is a life member of the Tribology Soceity of India."
+        "Title": "Biography",
+        "Description": "Dr. Manjesh K. Singh joined the Department of Mechanical Engineering, Indian Institute of Technology Kanpur on 16th September 2019 as an Assistant Professor.The principal areas of his research are tribology and rheology—mostly with polymers. He has an interdisciplinary background with education in Mechanical and Materials Engineering and research experience in both computer simulations and experiments. Dr. Singh is a life member of the Tribology Soceity of India."
     },
-    "Education":[
-        "Ph.D. (2016): Department of Materials, Swiss Federal Institute of Technology (ETH Zurich), Switzerland.",
-        "M.E. (2011): Materials Engineering, Indian Institute of Science (IISc.), Bangalore, India.",
-        "B.E. (2009): Mechanical Engineering, Indian Institute of Engineering Science and Technology (IIEST) Shibpur, India."
-    ],
+    "Interest":{
+        "Title":"Interests",
+        "List":[
+            "Soft Matter",
+            "Tribology"
+        ]
+    },
+    "Education":{
+        "Title":"Education",
+        "List":[
+            "Ph.D. (2016): Department of Materials, Swiss Federal Institute of Technology (ETH Zurich), Switzerland.",
+            "M.E. (2011): Materials Engineering, Indian Institute of Science (IISc.), Bangalore, India.",
+            "B.E. (2009): Mechanical Engineering, Indian Institute of Engineering Science and Technology (IIEST) Shibpur, India."
+        ]
+    }
+    ,
     "Awards": {
         "Title": "Awards and Recognitions",
         "List":[
